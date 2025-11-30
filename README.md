@@ -21,7 +21,18 @@ Part 5: Ride cycle simulation
 Part 6: Export ride history to CSV file
 Part 7: Import ride history from CSV file
 Project Structure
-PROG2004-A2-Gilang/ ├── src/ │ ├── AssignmentTwo.java # Main demo class (Parts 3-7) │ ├── Person.java # Abstract base class │ ├── Employee.java # Employee subclass │ ├── Visitor.java # Visitor subclass │ ├── Ride.java # Ride class implementing RideInterface │ ├── RideInterface.java # Interface defining ride operations │ ├── VisitorComparator.java # Comparator for sorting visitors │ └── log_flume_history.csv # Sample exported data ├── README.md └── .gitignore
+PROG2004-A2-Gilang/
+├── src/
+│ ├── AssignmentTwo.java # Main demo class (Parts 3-7)
+│ ├── Person.java # Abstract base class
+│ ├── Employee.java # Employee subclass
+│ ├── Visitor.java # Visitor subclass
+│ ├── Ride.java # Ride class implementing RideInterface
+│ ├── RideInterface.java # Interface defining ride operations
+│ ├── VisitorComparator.java # Comparator for sorting visitors
+│ └── log_flume_history.csv # Sample exported data
+├── README.md
+└── .gitignore
 How to Run
 Clone this repository
 Compile all Java files:
@@ -49,4 +60,4 @@ By submitting this assessment, I declare that:
 I have read and understood SCU's Academic Integrity policies and referencing guidelines. I am aware of the consequences of academic misconduct and confirm that this submission is my own original work, referenced appropriately, and has not been previously submitted. I authorise its reproduction for authentication purposes and understand the implications of a false declaration. I have adhered to guidelines regarding Generative AI.
 
 Generative AI Use Declaration
-I acknowledge that I have not knowingly used GenAI to complete this assessment.
+I acknowledge that I have not used GenAI to complete this assessment.
